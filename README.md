@@ -31,7 +31,7 @@ Client-side JS fails to execute in a specific scenario:
 
 ### Observations
 
-1. Deleting the react-modal import and usage in `about.js` yields the expected behaviour in step (4) above.
+1. Deleting the react-modal import in `about.js` yields the expected behaviour in step (4) above.
 
 2. Importing react-modal in `index.js` yields the expected behaviour in step (4) above.
 
