@@ -2,7 +2,6 @@ dependencies:
   next: 10.0.6-canary.0_react-dom@17.0.1+react@17.0.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
-  react-modal: 3.12.1_react-dom@17.0.1+react@17.0.1
 lockfileVersion: 5.2
 packages:
   /@ampproject/toolbox-core/2.7.4:
@@ -1417,10 +1416,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==
-  /exenv/1.2.2:
-    dev: false
-    resolution:
-      integrity: sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
   /expand-brackets/2.1.4:
     dependencies:
       debug: 2.6.9
@@ -3027,26 +3022,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-  /react-lifecycles-compat/3.0.4:
-    dev: false
-    resolution:
-      integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-modal/3.12.1_react-dom@17.0.1+react@17.0.1:
-    dependencies:
-      exenv: 1.2.2
-      prop-types: 15.7.2
-      react: 17.0.1
-      react-dom: 17.0.1_react@17.0.1
-      react-lifecycles-compat: 3.0.4
-      warning: 4.0.3
-    dev: false
-    engines:
-      node: '>=8'
-    peerDependencies:
-      react: ^0.14.0 || ^15.0.0 || ^16 || ^17
-      react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17
-    resolution:
-      integrity: sha512-WGuXn7Fq31PbFJwtWmOk+jFtGC7E9tJVbFX0lts8ZoS5EPi9+WWylUJWLKKVm3H4GlQ7ZxY7R6tLlbSIBQ5oZA==
   /react-refresh/0.8.3:
     dev: false
     engines:
@@ -3955,12 +3930,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-  /warning/4.0.3:
-    dependencies:
-      loose-envify: 1.4.0
-    dev: false
-    resolution:
-      integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   /watchpack-chokidar2/2.0.1:
     dependencies:
       chokidar: 2.1.8
@@ -4095,4 +4064,3 @@ specifiers:
   next: 10.0.6-canary.0
   react: 17.0.1
   react-dom: 17.0.1
-  react-modal: 3.12.1
