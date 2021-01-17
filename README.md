@@ -4,7 +4,7 @@ Demonstration of an issue involving Next.js, pnpm, and react-dom.
 
 Client-side JS fails to execute in a specific scenario:
 
-* pnpm is used to install dependencies. (using version 5.14.3 as of this writing)
+* pnpm is used to install dependencies. (using version 5.15.1 as of this writing)
 * react-dom is imported in one page (`about.js`) but not in another page (`index.js`).
 
 ### Repro
@@ -12,7 +12,7 @@ Client-side JS fails to execute in a specific scenario:
 1. Install pnpm and dependencies.
 
     ```shell
-    npm install -g pnpm@5.14.3
+    npm install -g pnpm@5.15.1
     pnpm install
     ```
 
