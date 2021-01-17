@@ -2,7 +2,6 @@ dependencies:
   next: 10.0.6-canary.0_react-dom@17.0.1+react@17.0.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
-  react-modal: 3.12.1_react-dom@17.0.1+react@17.0.1
 lockfileVersion: 5.2
 packages:
   /@ampproject/toolbox-core/2.7.4:
@@ -672,8 +671,8 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.14.6:
     dependencies:
-      caniuse-lite: 1.0.30001174
-      electron-to-chromium: 1.3.636
+      caniuse-lite: 1.0.30001177
+      electron-to-chromium: 1.3.641
       escalade: 3.1.1
       node-releases: 1.1.69
     dev: false
@@ -763,10 +762,10 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
-  /caniuse-lite/1.0.30001174:
+  /caniuse-lite/1.0.30001177:
     dev: false
     resolution:
-      integrity: sha512-tqClL/4ThQq6cfFXH3oJL4rifFBeM6gTkphjao5kgwMaW9yn0tKgQLAEfKzDwj6HQWCB/aWo8kTFlSvIN8geEA==
+      integrity: sha512-6Ld7t3ifCL02jTj3MxPMM5wAYjbo4h/TAQGFTgv1inihP1tWnWp8mxxT4ut4JBEHLbpFXEXJJQ119JCJTBkYDw==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -1085,7 +1084,7 @@ packages:
       integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
   /cssnano-preset-simple/1.2.1:
     dependencies:
-      caniuse-lite: 1.0.30001174
+      caniuse-lite: 1.0.30001177
       postcss: 7.0.32
     dev: false
     resolution:
@@ -1267,10 +1266,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.636:
+  /electron-to-chromium/1.3.641:
     dev: false
     resolution:
-      integrity: sha512-Adcvng33sd3gTjNIDNXGD1G4H6qCImIy2euUJAQHtLNplEKU5WEz5KRJxupRNIIT8sD5oFZLTKBWAf12Bsz24A==
+      integrity: sha512-b0DLhsHSHESC1I+Nx6n4w4Lr61chMd3m/av1rZQhS2IXTzaS5BMM5N+ldWdMIlni9CITMRM09m8He4+YV/92TA==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -1417,10 +1416,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==
-  /exenv/1.2.2:
-    dev: false
-    resolution:
-      integrity: sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
   /expand-brackets/2.1.4:
     dependencies:
       debug: 2.6.9
@@ -2427,7 +2422,7 @@ packages:
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       browserslist: 4.14.6
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001174
+      caniuse-lite: 1.0.30001177
       chalk: 2.4.2
       chokidar: 3.4.3
       crypto-browserify: 3.12.0
@@ -3027,26 +3022,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-  /react-lifecycles-compat/3.0.4:
-    dev: false
-    resolution:
-      integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-modal/3.12.1_react-dom@17.0.1+react@17.0.1:
-    dependencies:
-      exenv: 1.2.2
-      prop-types: 15.7.2
-      react: 17.0.1
-      react-dom: 17.0.1_react@17.0.1
-      react-lifecycles-compat: 3.0.4
-      warning: 4.0.3
-    dev: false
-    engines:
-      node: '>=8'
-    peerDependencies:
-      react: ^0.14.0 || ^15.0.0 || ^16 || ^17
-      react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17
-    resolution:
-      integrity: sha512-WGuXn7Fq31PbFJwtWmOk+jFtGC7E9tJVbFX0lts8ZoS5EPi9+WWylUJWLKKVm3H4GlQ7ZxY7R6tLlbSIBQ5oZA==
   /react-refresh/0.8.3:
     dev: false
     engines:
@@ -3155,7 +3130,7 @@ packages:
     resolution:
       integrity: sha512-QEb4A76c8Mi7I3xNKXlRKQSlLBwjUV/ULFMP+G7n3/7tJZ8MG5wsZ3ucxP1Jz8Vevn6fnJsxDx9cIls+utGzPQ==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: false
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -3909,7 +3884,7 @@ packages:
     resolution:
       integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: false
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -3955,12 +3930,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-  /warning/4.0.3:
-    dependencies:
-      loose-envify: 1.4.0
-    dev: false
-    resolution:
-      integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   /watchpack-chokidar2/2.0.1:
     dependencies:
       chokidar: 2.1.8
@@ -4095,4 +4064,3 @@ specifiers:
   next: 10.0.6-canary.0
   react: 17.0.1
   react-dom: 17.0.1
-  react-modal: 3.12.1

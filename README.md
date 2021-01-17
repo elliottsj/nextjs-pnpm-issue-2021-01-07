@@ -1,18 +1,18 @@
 # nextjs-pnpm-issue-2021-01-07
 
-Demonstration of an issue involving Next.js, pnpm, and react-modal.
+Demonstration of an issue involving Next.js, pnpm, and react-dom.
 
 Client-side JS fails to execute in a specific scenario:
 
-* pnpm is used to install dependencies. (using version 5.14.3 as of this writing)
-* react-modal is imported in one page (`about.js`) but not in another page (`index.js`).
+* pnpm is used to install dependencies. (using version 5.15.1 as of this writing)
+* react-dom is imported in one page (`about.js`) but not in another page (`index.js`).
 
 ### Repro
 
 1. Install pnpm and dependencies.
 
     ```shell
-    npm install -g pnpm@5.14.3
+    npm install -g pnpm@5.15.1
     pnpm install
     ```
 
@@ -31,9 +31,9 @@ Client-side JS fails to execute in a specific scenario:
 
 ### Observations
 
-1. Deleting the react-modal import in `about.js` yields the expected behaviour in step (4) above.
+1. Deleting the react-dom import in `about.js` yields the expected behaviour in step (4) above.
 
-2. Importing react-modal in `index.js` yields the expected behaviour in step (4) above.
+2. Importing react-dom in `index.js` yields the expected behaviour in step (4) above.
 
 3. Installing dependencies with yarn yields the expected behaviour in step (4) above.
 
